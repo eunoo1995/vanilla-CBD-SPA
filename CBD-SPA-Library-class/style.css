@@ -1,0 +1,24 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.todo-filter {
+  display: flex;
+  gap: 12px;
+}
+
+.todo-filter li {
+  cursor: pointer;
+}
+
+input:checked ~ span {
+  text-decoration: line-through;
+}
